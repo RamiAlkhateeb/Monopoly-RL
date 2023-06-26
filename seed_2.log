@@ -1,0 +1,1224 @@
+2023-06-24 19:12:10,688:logging:DEBUG:** ==== Leodopoly: the Leeds landlords game ==== **
+2023-06-24 19:12:10,689:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,689:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,689:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,689:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:AI, Marya, Lucia, Brandon
+2023-06-24 19:12:10,689:logging:DEBUG:| Woodhouse Street   |   60 |   20  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Melville Place     |   50 |   12  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Quarry Mount       |   30 |    8  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Leeds University   |  700 |  150  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Hyde Park Road     |  200 |   60  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Brudenell Road     |  120 |   40  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Victoria Road      |  250 |   80  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Notre Dame         |  200 |   60  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:| North Lane         |  100 |   50  |         | 
+2023-06-24 19:12:10,689:logging:DEBUG:
+2023-06-24 19:12:10,689:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,689:logging:DEBUG:* AI:         £500    0      £0   (500)
+2023-06-24 19:12:10,689:logging:DEBUG:* Marya:      £500    0      £0   (-550)
+2023-06-24 19:12:10,689:logging:DEBUG:* Lucia:      £500    0      £0   (500)
+2023-06-24 19:12:10,689:logging:DEBUG:* Brandon:    £500    0      £0   (-550)
+2023-06-24 19:12:10,689:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,689:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,689:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,689:logging:DEBUG:AI
+rolls
+6!
+2023-06-24 19:12:10,689:logging:DEBUG:AI
+moves to
+Brudenell Road.
+2023-06-24 19:12:10,689:logging:DEBUG:This property is for sale for 120 spondoolies.
+2023-06-24 19:12:10,689:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,689:logging:DEBUG:AI
+declines to buy
+Brudenell Road.
+2023-06-24 19:12:10,689:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,689:logging:DEBUG:Brudenell Road
+is up for auction.
+2023-06-24 19:12:10,690:logging:DEBUG:Marya bids 1.
+2023-06-24 19:12:10,690:logging:DEBUG:Lucia bids 6.
+2023-06-24 19:12:10,690:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,690:logging:DEBUG:AI bids 11.
+2023-06-24 19:12:10,690:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,690:logging:DEBUG:Lucia bids 16.
+2023-06-24 19:12:10,690:logging:DEBUG:AI bids 21.
+2023-06-24 19:12:10,690:logging:DEBUG:Lucia bids 26.
+2023-06-24 19:12:10,690:logging:DEBUG:AI bids 31.
+2023-06-24 19:12:10,690:logging:DEBUG:Lucia bids 36.
+2023-06-24 19:12:10,690:logging:DEBUG:AI bids 41.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 46.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 51.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 56.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 61.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 66.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 71.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 76.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 81.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 86.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 91.
+2023-06-24 19:12:10,691:logging:DEBUG:Lucia bids 96.
+2023-06-24 19:12:10,691:logging:DEBUG:AI bids 101.
+2023-06-24 19:12:10,692:logging:DEBUG:Lucia bids 106.
+2023-06-24 19:12:10,692:logging:DEBUG:AI bids 111.
+2023-06-24 19:12:10,693:logging:DEBUG:Lucia bids 116.
+2023-06-24 19:12:10,693:logging:DEBUG:AI bids 121.
+2023-06-24 19:12:10,693:logging:DEBUG:Lucia bids 126.
+2023-06-24 19:12:10,693:logging:DEBUG:AI bids 131.
+2023-06-24 19:12:10,693:logging:DEBUG:Lucia bids 136.
+2023-06-24 19:12:10,693:logging:DEBUG:AI bids 141.
+2023-06-24 19:12:10,693:logging:DEBUG:Lucia bids 146.
+2023-06-24 19:12:10,693:logging:DEBUG:AI bids 151.
+2023-06-24 19:12:10,693:logging:DEBUG:Lucia bids 156.
+2023-06-24 19:12:10,694:logging:DEBUG:AI bids 161.
+2023-06-24 19:12:10,694:logging:DEBUG:Lucia bids 166.
+2023-06-24 19:12:10,694:logging:DEBUG:AI bids 171.
+2023-06-24 19:12:10,694:logging:DEBUG:Lucia bids 176.
+2023-06-24 19:12:10,694:logging:DEBUG:AI bids 181.
+2023-06-24 19:12:10,694:logging:DEBUG:Lucia bids 186.
+2023-06-24 19:12:10,694:logging:DEBUG:AI bids 191.
+2023-06-24 19:12:10,694:logging:DEBUG:Lucia bids 196.
+2023-06-24 19:12:10,694:logging:DEBUG:AI
+passes.
+2023-06-24 19:12:10,695:logging:DEBUG:Lucia buys Brudenell Road for £200.
+2023-06-24 19:12:10,695:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,695:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,695:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,695:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,695:logging:DEBUG:Marya
+rolls
+4!
+2023-06-24 19:12:10,695:logging:DEBUG:Marya
+moves to
+Leeds University.
+2023-06-24 19:12:10,695:logging:DEBUG:This property is for sale for 700 spondoolies.
+2023-06-24 19:12:10,695:logging:DEBUG:Marya
+cannot afford
+Leeds University.
+2023-06-24 19:12:10,695:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,695:logging:DEBUG:Leeds University
+is up for auction.
+2023-06-24 19:12:10,695:logging:DEBUG:Lucia bids 1.
+2023-06-24 19:12:10,695:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,695:logging:DEBUG:AI bids 6.
+2023-06-24 19:12:10,695:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,695:logging:DEBUG:Lucia bids 11.
+2023-06-24 19:12:10,695:logging:DEBUG:AI bids 16.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 21.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 26.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 31.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 36.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 41.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 46.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 51.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 56.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 61.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 66.
+2023-06-24 19:12:10,696:logging:DEBUG:Lucia bids 71.
+2023-06-24 19:12:10,696:logging:DEBUG:AI bids 76.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 81.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 86.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 91.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 96.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 101.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 106.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 111.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 116.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 121.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 126.
+2023-06-24 19:12:10,697:logging:DEBUG:Lucia bids 131.
+2023-06-24 19:12:10,697:logging:DEBUG:AI bids 136.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 141.
+2023-06-24 19:12:10,698:logging:DEBUG:AI bids 146.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 151.
+2023-06-24 19:12:10,698:logging:DEBUG:AI bids 156.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 161.
+2023-06-24 19:12:10,698:logging:DEBUG:AI bids 166.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 171.
+2023-06-24 19:12:10,698:logging:DEBUG:AI bids 176.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 181.
+2023-06-24 19:12:10,698:logging:DEBUG:AI bids 186.
+2023-06-24 19:12:10,698:logging:DEBUG:Lucia bids 191.
+2023-06-24 19:12:10,699:logging:DEBUG:AI bids 196.
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia bids 201.
+2023-06-24 19:12:10,699:logging:DEBUG:AI bids 206.
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia bids 211.
+2023-06-24 19:12:10,699:logging:DEBUG:AI bids 216.
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia bids 221.
+2023-06-24 19:12:10,699:logging:DEBUG:AI bids 226.
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,699:logging:DEBUG:AI buys Leeds University for £230.
+2023-06-24 19:12:10,699:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,699:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,699:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,699:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,699:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,700:logging:DEBUG:*** AI offers £150 for Brudenell Road.
+2023-06-24 19:12:10,700:logging:DEBUG:DEAL: Lucia agrees to sell Brudenell Road to AI for £150.
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,700:logging:DEBUG:Lucia
+rolls
+4!
+2023-06-24 19:12:10,700:logging:DEBUG:Lucia
+moves to
+Leeds University.
+2023-06-24 19:12:10,700:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,700:logging:DEBUG:Lucia must pay £150 to AI.
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,700:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,700:logging:DEBUG:Brandon
+rolls
+2!
+2023-06-24 19:12:10,700:logging:DEBUG:Brandon
+moves to
+Melville Place.
+2023-06-24 19:12:10,700:logging:DEBUG:This property is for sale for 50 spondoolies.
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,700:logging:DEBUG:Brandon
+declines to buy
+Melville Place.
+2023-06-24 19:12:10,700:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,700:logging:DEBUG:Melville Place
+is up for auction.
+2023-06-24 19:12:10,700:logging:DEBUG:AI bids 1.
+2023-06-24 19:12:10,700:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,701:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,701:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,701:logging:DEBUG:AI buys Melville Place for £5.
+2023-06-24 19:12:10,701:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,701:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,701:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,701:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,701:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,701:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Woodhouse Street   |   60 |   20  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Melville Place     |   50 |   12  | AI      | 
+2023-06-24 19:12:10,701:logging:DEBUG:Brandon
+2023-06-24 19:12:10,701:logging:DEBUG:| Quarry Mount       |   30 |    8  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Leeds University   |  700 |  150  | AI      | 
+2023-06-24 19:12:10,701:logging:DEBUG:Marya, Lucia
+2023-06-24 19:12:10,701:logging:DEBUG:| Hyde Park Road     |  200 |   60  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,701:logging:DEBUG:AI
+2023-06-24 19:12:10,701:logging:DEBUG:| Victoria Road      |  250 |   80  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Notre Dame         |  200 |   60  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:| North Lane         |  100 |   50  |         | 
+2023-06-24 19:12:10,701:logging:DEBUG:
+2023-06-24 19:12:10,701:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,701:logging:DEBUG:* AI:         £415    2    £162   (821)
+2023-06-24 19:12:10,701:logging:DEBUG:* Marya:      £500    0      £0   (-649)
+2023-06-24 19:12:10,701:logging:DEBUG:* Lucia:      £150    1     £40   (-54)
+2023-06-24 19:12:10,701:logging:DEBUG:* Brandon:    £500    0      £0   (-649)
+2023-06-24 19:12:10,701:logging:DEBUG:Round
+2
+2023-06-24 19:12:10,701:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,701:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,701:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,701:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,701:logging:DEBUG:Leeds University, Melville Place
+2023-06-24 19:12:10,702:logging:DEBUG:*** Lucia offers £70 for Leeds University.
+2023-06-24 19:12:10,702:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Lucia for £70.
+2023-06-24 19:12:10,703:logging:DEBUG:No offers were made to buy Melville Place.
+2023-06-24 19:12:10,703:logging:DEBUG:AI
+does not accept any of this offer.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,703:logging:DEBUG:AI
+rolls
+1!
+2023-06-24 19:12:10,703:logging:DEBUG:AI
+moves to
+Victoria Road.
+2023-06-24 19:12:10,703:logging:DEBUG:This property is for sale for 250 spondoolies.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,703:logging:DEBUG:AI
+declines to buy
+Victoria Road.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,703:logging:DEBUG:Victoria Road
+is up for auction.
+2023-06-24 19:12:10,703:logging:DEBUG:Marya bids 1.
+2023-06-24 19:12:10,703:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,703:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,703:logging:DEBUG:AI bids 6.
+2023-06-24 19:12:10,703:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,703:logging:DEBUG:AI buys Victoria Road for £10.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,703:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,703:logging:DEBUG:Marya
+rolls
+6!
+2023-06-24 19:12:10,703:logging:DEBUG:Marya
+moves to
+North Lane.
+2023-06-24 19:12:10,703:logging:DEBUG:This property is for sale for 100 spondoolies.
+2023-06-24 19:12:10,703:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,704:logging:DEBUG:Marya
+declines to buy
+North Lane.
+2023-06-24 19:12:10,704:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,704:logging:DEBUG:North Lane
+is up for auction.
+2023-06-24 19:12:10,704:logging:DEBUG:Lucia bids 1.
+2023-06-24 19:12:10,704:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,704:logging:DEBUG:AI bids 6.
+2023-06-24 19:12:10,704:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,704:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,704:logging:DEBUG:AI buys North Lane for £10.
+2023-06-24 19:12:10,704:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,704:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,704:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,704:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,704:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,704:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,705:logging:DEBUG:*** AI offers £150 for Brudenell Road.
+2023-06-24 19:12:10,705:logging:DEBUG:Lucia
+does not accept any of this offer.
+2023-06-24 19:12:10,705:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,705:logging:DEBUG:Lucia
+rolls
+1!
+2023-06-24 19:12:10,705:logging:DEBUG:Lucia
+moves to
+Hyde Park Road.
+2023-06-24 19:12:10,705:logging:DEBUG:This property is for sale for 200 spondoolies.
+2023-06-24 19:12:10,705:logging:DEBUG:Lucia
+cannot afford
+Hyde Park Road.
+2023-06-24 19:12:10,705:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,705:logging:DEBUG:Hyde Park Road
+is up for auction.
+2023-06-24 19:12:10,705:logging:DEBUG:Brandon bids 1.
+2023-06-24 19:12:10,705:logging:DEBUG:AI bids 6.
+2023-06-24 19:12:10,705:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,705:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,706:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,706:logging:DEBUG:AI buys Hyde Park Road for £10.
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,706:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,706:logging:DEBUG:Brandon
+rolls
+5!
+2023-06-24 19:12:10,706:logging:DEBUG:Brandon
+moves to
+Victoria Road.
+2023-06-24 19:12:10,706:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,706:logging:DEBUG:Brandon must pay £80 to AI.
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,706:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,706:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,706:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,706:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Woodhouse Street   |   60 |   20  |         | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Melville Place     |   50 |   12  | AI      | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Quarry Mount       |   30 |    8  |         | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Leeds University   |  700 |  150  | AI      | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,706:logging:DEBUG:Lucia
+2023-06-24 19:12:10,706:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,706:logging:DEBUG:AI, Brandon
+2023-06-24 19:12:10,706:logging:DEBUG:| Notre Dame         |  200 |   60  |         | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,706:logging:DEBUG:
+2023-06-24 19:12:10,706:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,706:logging:DEBUG:Marya
+2023-06-24 19:12:10,706:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,706:logging:DEBUG:* AI:         £465    5    £352   (1441)
+2023-06-24 19:12:10,706:logging:DEBUG:* Marya:      £500    0      £0   (-1008)
+2023-06-24 19:12:10,706:logging:DEBUG:* Lucia:      £150    1     £40   (-434)
+2023-06-24 19:12:10,706:logging:DEBUG:* Brandon:    £420    0      £0   (-2144)
+2023-06-24 19:12:10,706:logging:DEBUG:Round
+3
+2023-06-24 19:12:10,706:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,707:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,707:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,707:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,707:logging:DEBUG:Leeds University, Melville Place, Victoria Road, North Lane, Hyde Park Road
+2023-06-24 19:12:10,707:logging:DEBUG:*** Lucia offers £70 for Leeds University.
+2023-06-24 19:12:10,707:logging:DEBUG:*** Brandon offers £170 for Leeds University.
+2023-06-24 19:12:10,707:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Brandon for £170.
+2023-06-24 19:12:10,708:logging:DEBUG:*** Brandon offers £8 for Melville Place.
+2023-06-24 19:12:10,708:logging:DEBUG:DEAL: AI agrees to sell Melville Place to Brandon for £8.
+2023-06-24 19:12:10,709:logging:DEBUG:*** Brandon offers £88 for Victoria Road.
+2023-06-24 19:12:10,709:logging:DEBUG:DEAL: AI agrees to sell Victoria Road to Brandon for £88.
+2023-06-24 19:12:10,709:logging:DEBUG:*** Brandon offers £52 for North Lane.
+2023-06-24 19:12:10,709:logging:DEBUG:DEAL: AI agrees to sell North Lane to Brandon for £52.
+2023-06-24 19:12:10,710:logging:DEBUG:*** Brandon offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,710:logging:DEBUG:DEAL: AI agrees to sell Hyde Park Road to Brandon for £64.
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,710:logging:DEBUG:AI
+rolls
+6!
+2023-06-24 19:12:10,710:logging:DEBUG:AI
+moves to
+Melville Place.
+2023-06-24 19:12:10,710:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,710:logging:DEBUG:AI enjoys visiting Melville Place.
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,710:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,710:logging:DEBUG:Marya
+rolls
+1!
+2023-06-24 19:12:10,710:logging:DEBUG:Marya
+moves to
+Millennium Square.
+2023-06-24 19:12:10,710:logging:DEBUG:This place cannot be bought.
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,710:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,710:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,710:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,710:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,711:logging:DEBUG:*** Brandon offers £41 for Brudenell Road.
+2023-06-24 19:12:10,711:logging:DEBUG:*** AI offers £405 for Brudenell Road.
+2023-06-24 19:12:10,711:logging:DEBUG:Lucia
+does not accept any of these offers.
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,711:logging:DEBUG:Lucia
+rolls
+2!
+2023-06-24 19:12:10,711:logging:DEBUG:Lucia
+moves to
+Victoria Road.
+2023-06-24 19:12:10,711:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,711:logging:DEBUG:Lucia must pay £80 to AI.
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,711:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,711:logging:DEBUG:Brandon
+rolls
+3!
+2023-06-24 19:12:10,711:logging:DEBUG:Brandon
+moves to
+North Lane.
+2023-06-24 19:12:10,711:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,711:logging:DEBUG:Brandon must pay £50 to AI.
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,711:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,711:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,711:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,711:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,711:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,711:logging:DEBUG:Marya
+2023-06-24 19:12:10,711:logging:DEBUG:| Woodhouse Street   |   60 |   20  |         | 
+2023-06-24 19:12:10,711:logging:DEBUG:
+2023-06-24 19:12:10,711:logging:DEBUG:| Melville Place     |   50 |   12  | AI      | 
+2023-06-24 19:12:10,711:logging:DEBUG:AI
+2023-06-24 19:12:10,711:logging:DEBUG:| Quarry Mount       |   30 |    8  |         | 
+2023-06-24 19:12:10,711:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| Leeds University   |  700 |  150  | AI      | 
+2023-06-24 19:12:10,712:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,712:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,712:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,712:logging:DEBUG:Lucia
+2023-06-24 19:12:10,712:logging:DEBUG:| Notre Dame         |  200 |   60  |         | 
+2023-06-24 19:12:10,712:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,712:logging:DEBUG:
+2023-06-24 19:12:10,712:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,712:logging:DEBUG:Brandon
+2023-06-24 19:12:10,712:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,712:logging:DEBUG:* AI:         £595    5    £352   (1571)
+2023-06-24 19:12:10,712:logging:DEBUG:* Marya:      £500    0      £0   (-1008)
+2023-06-24 19:12:10,712:logging:DEBUG:* Lucia:       £70    1     £40   (-4150)
+2023-06-24 19:12:10,712:logging:DEBUG:* Brandon:    £370    0      £0   (-2229)
+2023-06-24 19:12:10,712:logging:DEBUG:Round
+4
+2023-06-24 19:12:10,712:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,712:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,712:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,712:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,712:logging:DEBUG:Leeds University, Melville Place, Victoria Road, North Lane, Hyde Park Road
+2023-06-24 19:12:10,713:logging:DEBUG:*** Lucia offers £10 for Leeds University.
+2023-06-24 19:12:10,713:logging:DEBUG:*** Brandon offers £170 for Leeds University.
+2023-06-24 19:12:10,713:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Brandon for £170.
+2023-06-24 19:12:10,713:logging:DEBUG:*** Lucia offers £10 for Melville Place.
+2023-06-24 19:12:10,713:logging:DEBUG:*** Brandon offers £8 for Melville Place.
+2023-06-24 19:12:10,713:logging:DEBUG:DEAL: AI agrees to sell Melville Place to Lucia for £10.
+2023-06-24 19:12:10,714:logging:DEBUG:*** Lucia offers £10 for Victoria Road.
+2023-06-24 19:12:10,714:logging:DEBUG:*** Brandon offers £88 for Victoria Road.
+2023-06-24 19:12:10,714:logging:DEBUG:DEAL: AI agrees to sell Victoria Road to Brandon for £88.
+2023-06-24 19:12:10,715:logging:DEBUG:*** Lucia offers £10 for North Lane.
+2023-06-24 19:12:10,715:logging:DEBUG:*** Brandon offers £52 for North Lane.
+2023-06-24 19:12:10,715:logging:DEBUG:DEAL: AI agrees to sell North Lane to Brandon for £52.
+2023-06-24 19:12:10,715:logging:DEBUG:*** Lucia offers £10 for Hyde Park Road.
+2023-06-24 19:12:10,715:logging:DEBUG:*** Brandon offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,715:logging:DEBUG:DEAL: AI agrees to sell Hyde Park Road to Brandon for £64.
+2023-06-24 19:12:10,715:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,715:logging:DEBUG:AI
+rolls
+2!
+2023-06-24 19:12:10,715:logging:DEBUG:AI
+moves to
+Leeds University.
+2023-06-24 19:12:10,715:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,715:logging:DEBUG:AI enjoys visiting Leeds University.
+2023-06-24 19:12:10,715:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,715:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,715:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,715:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,715:logging:DEBUG:Marya
+rolls
+2!
+2023-06-24 19:12:10,715:logging:DEBUG:Marya
+moves to
+Melville Place.
+2023-06-24 19:12:10,716:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,716:logging:DEBUG:Marya must pay £12 to AI.
+2023-06-24 19:12:10,716:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,716:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,716:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,716:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,716:logging:DEBUG:*** Brandon offers £41 for Brudenell Road.
+2023-06-24 19:12:10,716:logging:DEBUG:*** AI offers £547 for Brudenell Road.
+2023-06-24 19:12:10,716:logging:DEBUG:*** Marya offers £41 for Brudenell Road.
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+does not accept any of these offers.
+2023-06-24 19:12:10,716:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+rolls
+1!
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+moves to
+Notre Dame.
+2023-06-24 19:12:10,716:logging:DEBUG:This property is for sale for 200 spondoolies.
+2023-06-24 19:12:10,716:logging:DEBUG:Lucia
+cannot afford
+Notre Dame.
+2023-06-24 19:12:10,716:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,716:logging:DEBUG:Notre Dame
+is up for auction.
+2023-06-24 19:12:10,716:logging:DEBUG:Brandon bids 1.
+2023-06-24 19:12:10,717:logging:DEBUG:AI bids 6.
+2023-06-24 19:12:10,717:logging:DEBUG:Marya bids 11.
+2023-06-24 19:12:10,717:logging:DEBUG:Lucia bids 16.
+2023-06-24 19:12:10,717:logging:DEBUG:Brandon bids 21.
+2023-06-24 19:12:10,717:logging:DEBUG:AI bids 26.
+2023-06-24 19:12:10,717:logging:DEBUG:Marya bids 31.
+2023-06-24 19:12:10,717:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,717:logging:DEBUG:Brandon bids 36.
+2023-06-24 19:12:10,717:logging:DEBUG:AI bids 41.
+2023-06-24 19:12:10,717:logging:DEBUG:Marya bids 46.
+2023-06-24 19:12:10,717:logging:DEBUG:Brandon bids 51.
+2023-06-24 19:12:10,717:logging:DEBUG:AI bids 56.
+2023-06-24 19:12:10,718:logging:DEBUG:Marya bids 61.
+2023-06-24 19:12:10,718:logging:DEBUG:Brandon bids 66.
+2023-06-24 19:12:10,718:logging:DEBUG:AI bids 71.
+2023-06-24 19:12:10,719:logging:DEBUG:Marya bids 76.
+2023-06-24 19:12:10,719:logging:DEBUG:Brandon bids 81.
+2023-06-24 19:12:10,719:logging:DEBUG:AI bids 86.
+2023-06-24 19:12:10,719:logging:DEBUG:Marya bids 91.
+2023-06-24 19:12:10,719:logging:DEBUG:Brandon bids 96.
+2023-06-24 19:12:10,719:logging:DEBUG:AI bids 101.
+2023-06-24 19:12:10,719:logging:DEBUG:Marya bids 106.
+2023-06-24 19:12:10,719:logging:DEBUG:Brandon bids 111.
+2023-06-24 19:12:10,719:logging:DEBUG:AI bids 116.
+2023-06-24 19:12:10,719:logging:DEBUG:Marya bids 121.
+2023-06-24 19:12:10,720:logging:DEBUG:Brandon bids 126.
+2023-06-24 19:12:10,720:logging:DEBUG:AI bids 131.
+2023-06-24 19:12:10,720:logging:DEBUG:Marya bids 136.
+2023-06-24 19:12:10,720:logging:DEBUG:Brandon bids 141.
+2023-06-24 19:12:10,720:logging:DEBUG:AI bids 146.
+2023-06-24 19:12:10,720:logging:DEBUG:Marya bids 151.
+2023-06-24 19:12:10,720:logging:DEBUG:Brandon bids 156.
+2023-06-24 19:12:10,720:logging:DEBUG:AI bids 161.
+2023-06-24 19:12:10,720:logging:DEBUG:Marya bids 166.
+2023-06-24 19:12:10,720:logging:DEBUG:Brandon bids 171.
+2023-06-24 19:12:10,720:logging:DEBUG:AI bids 176.
+2023-06-24 19:12:10,720:logging:DEBUG:Marya bids 181.
+2023-06-24 19:12:10,721:logging:DEBUG:Brandon bids 186.
+2023-06-24 19:12:10,721:logging:DEBUG:AI bids 191.
+2023-06-24 19:12:10,721:logging:DEBUG:Marya bids 196.
+2023-06-24 19:12:10,721:logging:DEBUG:Brandon bids 201.
+2023-06-24 19:12:10,721:logging:DEBUG:AI bids 206.
+2023-06-24 19:12:10,721:logging:DEBUG:Marya bids 211.
+2023-06-24 19:12:10,721:logging:DEBUG:Brandon bids 216.
+2023-06-24 19:12:10,721:logging:DEBUG:AI bids 221.
+2023-06-24 19:12:10,721:logging:DEBUG:Marya bids 226.
+2023-06-24 19:12:10,721:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,721:logging:DEBUG:AI bids 231.
+2023-06-24 19:12:10,721:logging:DEBUG:Marya bids 236.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 241.
+2023-06-24 19:12:10,722:logging:DEBUG:Marya bids 246.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 251.
+2023-06-24 19:12:10,722:logging:DEBUG:Marya bids 256.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 261.
+2023-06-24 19:12:10,722:logging:DEBUG:Marya bids 266.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 271.
+2023-06-24 19:12:10,722:logging:DEBUG:Marya bids 276.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 281.
+2023-06-24 19:12:10,722:logging:DEBUG:Marya bids 286.
+2023-06-24 19:12:10,722:logging:DEBUG:AI bids 291.
+2023-06-24 19:12:10,723:logging:DEBUG:Marya bids 296.
+2023-06-24 19:12:10,723:logging:DEBUG:AI bids 301.
+2023-06-24 19:12:10,723:logging:DEBUG:Marya bids 306.
+2023-06-24 19:12:10,723:logging:DEBUG:AI bids 311.
+2023-06-24 19:12:10,723:logging:DEBUG:Marya bids 316.
+2023-06-24 19:12:10,723:logging:DEBUG:AI bids 321.
+2023-06-24 19:12:10,723:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,723:logging:DEBUG:AI buys Notre Dame for £325.
+2023-06-24 19:12:10,723:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,723:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,723:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,724:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,724:logging:DEBUG:Brandon
+rolls
+2!
+2023-06-24 19:12:10,724:logging:DEBUG:Brandon
+moves to
+Woodhouse Street.
+2023-06-24 19:12:10,724:logging:DEBUG:This property is for sale for 60 spondoolies.
+2023-06-24 19:12:10,724:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,724:logging:DEBUG:Brandon
+declines to buy
+Woodhouse Street.
+2023-06-24 19:12:10,724:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,724:logging:DEBUG:Woodhouse Street
+is up for auction.
+2023-06-24 19:12:10,724:logging:DEBUG:AI bids 1.
+2023-06-24 19:12:10,724:logging:DEBUG:Marya bids 6.
+2023-06-24 19:12:10,724:logging:DEBUG:Lucia bids 11.
+2023-06-24 19:12:10,724:logging:DEBUG:Brandon bids 16.
+2023-06-24 19:12:10,724:logging:DEBUG:AI bids 21.
+2023-06-24 19:12:10,724:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,724:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,725:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,725:logging:DEBUG:AI buys Woodhouse Street for £25.
+2023-06-24 19:12:10,725:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,725:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,725:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,725:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,725:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,725:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| Woodhouse Street   |   60 |   20  | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:Brandon
+2023-06-24 19:12:10,725:logging:DEBUG:| Melville Place     |   50 |   12  | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:Marya
+2023-06-24 19:12:10,725:logging:DEBUG:| Quarry Mount       |   30 |    8  |         | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| Leeds University   |  700 |  300* | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:AI
+2023-06-24 19:12:10,725:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| Notre Dame         |  200 |  120* | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:Lucia
+2023-06-24 19:12:10,725:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,725:logging:DEBUG:
+2023-06-24 19:12:10,725:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,725:logging:DEBUG:* AI:         £257    7    £642   (2103)
+2023-06-24 19:12:10,725:logging:DEBUG:* Marya:      £488    0      £0   (-2363)
+2023-06-24 19:12:10,725:logging:DEBUG:* Lucia:       £70    1     £40   (-6548)
+2023-06-24 19:12:10,725:logging:DEBUG:* Brandon:    £370    0      £0   (-2564)
+2023-06-24 19:12:10,725:logging:DEBUG:Round
+5
+2023-06-24 19:12:10,725:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,725:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,725:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,725:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,725:logging:DEBUG:Leeds University, Melville Place, Victoria Road, North Lane, Hyde Park Road, Notre Dame, Woodhouse Street
+2023-06-24 19:12:10,726:logging:DEBUG:*** Marya offers £408 for Leeds University.
+2023-06-24 19:12:10,726:logging:DEBUG:*** Lucia offers £20 for Leeds University.
+2023-06-24 19:12:10,726:logging:DEBUG:*** Brandon offers £290 for Leeds University.
+2023-06-24 19:12:10,726:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Marya for £408.
+2023-06-24 19:12:10,727:logging:DEBUG:*** Marya offers £8 for Melville Place.
+2023-06-24 19:12:10,727:logging:DEBUG:*** Lucia offers £10 for Melville Place.
+2023-06-24 19:12:10,727:logging:DEBUG:*** Brandon offers £8 for Melville Place.
+2023-06-24 19:12:10,727:logging:DEBUG:DEAL: AI agrees to sell Melville Place to Lucia for £10.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Marya offers £88 for Victoria Road.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Lucia offers £20 for Victoria Road.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Brandon offers £70 for Victoria Road.
+2023-06-24 19:12:10,728:logging:DEBUG:DEAL: AI agrees to sell Victoria Road to Marya for £88.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Marya offers £52 for North Lane.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Lucia offers £10 for North Lane.
+2023-06-24 19:12:10,728:logging:DEBUG:*** Brandon offers £52 for North Lane.
+2023-06-24 19:12:10,728:logging:DEBUG:DEAL: AI agrees to sell North Lane to Brandon for £52.
+2023-06-24 19:12:10,729:logging:DEBUG:*** Marya offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,729:logging:DEBUG:*** Lucia offers £20 for Hyde Park Road.
+2023-06-24 19:12:10,729:logging:DEBUG:*** Brandon offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,729:logging:DEBUG:DEAL: AI agrees to sell Hyde Park Road to Brandon for £64.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Marya offers £311 for Notre Dame.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Lucia offers £20 for Notre Dame.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Brandon offers £220 for Notre Dame.
+2023-06-24 19:12:10,730:logging:DEBUG:DEAL: AI agrees to sell Notre Dame to Marya for £311.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Marya offers £17 for Woodhouse Street.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Lucia offers £10 for Woodhouse Street.
+2023-06-24 19:12:10,730:logging:DEBUG:*** Brandon offers £17 for Woodhouse Street.
+2023-06-24 19:12:10,730:logging:DEBUG:DEAL: AI agrees to sell Woodhouse Street to Brandon for £17.
+2023-06-24 19:12:10,730:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,730:logging:DEBUG:AI
+rolls
+3!
+2023-06-24 19:12:10,730:logging:DEBUG:AI
+moves to
+Victoria Road.
+2023-06-24 19:12:10,730:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,730:logging:DEBUG:AI enjoys visiting Victoria Road.
+2023-06-24 19:12:10,730:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,730:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,730:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,730:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,731:logging:DEBUG:Marya
+rolls
+1!
+2023-06-24 19:12:10,731:logging:DEBUG:Marya
+moves to
+Quarry Mount.
+2023-06-24 19:12:10,731:logging:DEBUG:This property is for sale for 30 spondoolies.
+2023-06-24 19:12:10,731:logging:DEBUG:Phase:
+opportunity to buy
+2023-06-24 19:12:10,731:logging:DEBUG:Marya
+declines to buy
+Quarry Mount.
+2023-06-24 19:12:10,731:logging:DEBUG:Phase:
+auction
+2023-06-24 19:12:10,731:logging:DEBUG:Quarry Mount
+is up for auction.
+2023-06-24 19:12:10,731:logging:DEBUG:Lucia bids 1.
+2023-06-24 19:12:10,731:logging:DEBUG:Brandon bids 6.
+2023-06-24 19:12:10,731:logging:DEBUG:AI bids 11.
+2023-06-24 19:12:10,731:logging:DEBUG:Marya bids 16.
+2023-06-24 19:12:10,731:logging:DEBUG:Lucia
+passes.
+2023-06-24 19:12:10,732:logging:DEBUG:Brandon bids 21.
+2023-06-24 19:12:10,732:logging:DEBUG:AI bids 26.
+2023-06-24 19:12:10,732:logging:DEBUG:Marya bids 31.
+2023-06-24 19:12:10,732:logging:DEBUG:Brandon bids 36.
+2023-06-24 19:12:10,732:logging:DEBUG:AI bids 41.
+2023-06-24 19:12:10,732:logging:DEBUG:Marya bids 46.
+2023-06-24 19:12:10,732:logging:DEBUG:Brandon bids 51.
+2023-06-24 19:12:10,732:logging:DEBUG:AI bids 56.
+2023-06-24 19:12:10,732:logging:DEBUG:Marya
+passes.
+2023-06-24 19:12:10,732:logging:DEBUG:Brandon
+passes.
+2023-06-24 19:12:10,732:logging:DEBUG:AI buys Quarry Mount for £60.
+2023-06-24 19:12:10,732:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,732:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,732:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,733:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,733:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,733:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,733:logging:DEBUG:*** Brandon offers £41 for Brudenell Road.
+2023-06-24 19:12:10,733:logging:DEBUG:*** AI offers £195 for Brudenell Road.
+2023-06-24 19:12:10,733:logging:DEBUG:*** Marya offers £41 for Brudenell Road.
+2023-06-24 19:12:10,733:logging:DEBUG:Lucia
+does not accept any of these offers.
+2023-06-24 19:12:10,733:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,733:logging:DEBUG:Lucia
+rolls
+4!
+2023-06-24 19:12:10,733:logging:DEBUG:Lucia
+moves to
+Woodhouse Street.
+2023-06-24 19:12:10,733:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,733:logging:DEBUG:Lucia must pay £40 to AI.
+2023-06-24 19:12:10,733:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,733:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,733:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,733:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,734:logging:DEBUG:Brandon
+rolls
+1!
+2023-06-24 19:12:10,734:logging:DEBUG:Brandon
+moves to
+Melville Place.
+2023-06-24 19:12:10,734:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,734:logging:DEBUG:Brandon must pay £24 to AI.
+2023-06-24 19:12:10,734:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,734:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,734:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,734:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,734:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,734:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| Woodhouse Street   |   60 |   40* | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:Lucia
+2023-06-24 19:12:10,734:logging:DEBUG:| Melville Place     |   50 |   24* | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:Brandon
+2023-06-24 19:12:10,734:logging:DEBUG:| Quarry Mount       |   30 |   16* | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:Marya
+2023-06-24 19:12:10,734:logging:DEBUG:| Leeds University   |  700 |  300* | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:AI
+2023-06-24 19:12:10,734:logging:DEBUG:| Notre Dame         |  200 |  120* | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,734:logging:DEBUG:
+2023-06-24 19:12:10,734:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,734:logging:DEBUG:* AI:         £261    8    £690   (2251)
+2023-06-24 19:12:10,734:logging:DEBUG:* Marya:      £488    0      £0   (-2417)
+2023-06-24 19:12:10,734:logging:DEBUG:* Lucia:       £30    1     £40   (-12139)
+2023-06-24 19:12:10,734:logging:DEBUG:* Brandon:    £346    0      £0   (-2659)
+2023-06-24 19:12:10,734:logging:DEBUG:Round
+6
+2023-06-24 19:12:10,734:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,734:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,734:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,734:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,734:logging:DEBUG:Leeds University, Melville Place, Victoria Road, North Lane, Hyde Park Road, Notre Dame, Woodhouse Street, Quarry Mount
+2023-06-24 19:12:10,735:logging:DEBUG:*** Marya offers £408 for Leeds University.
+2023-06-24 19:12:10,735:logging:DEBUG:*** Lucia offers £14 for Leeds University.
+2023-06-24 19:12:10,735:logging:DEBUG:*** Brandon offers £266 for Leeds University.
+2023-06-24 19:12:10,735:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Marya for £408.
+2023-06-24 19:12:10,736:logging:DEBUG:*** Marya offers £55 for Melville Place.
+2023-06-24 19:12:10,736:logging:DEBUG:*** Lucia offers £22 for Melville Place.
+2023-06-24 19:12:10,736:logging:DEBUG:*** Brandon offers £46 for Melville Place.
+2023-06-24 19:12:10,736:logging:DEBUG:DEAL: AI agrees to sell Melville Place to Marya for £55.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Marya offers £88 for Victoria Road.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Lucia offers £14 for Victoria Road.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Brandon offers £46 for Victoria Road.
+2023-06-24 19:12:10,737:logging:DEBUG:DEAL: AI agrees to sell Victoria Road to Marya for £88.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Marya offers £52 for North Lane.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Lucia offers £14 for North Lane.
+2023-06-24 19:12:10,737:logging:DEBUG:*** Brandon offers £46 for North Lane.
+2023-06-24 19:12:10,737:logging:DEBUG:DEAL: AI agrees to sell North Lane to Marya for £52.
+2023-06-24 19:12:10,738:logging:DEBUG:*** Marya offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,738:logging:DEBUG:*** Lucia offers £14 for Hyde Park Road.
+2023-06-24 19:12:10,738:logging:DEBUG:*** Brandon offers £46 for Hyde Park Road.
+2023-06-24 19:12:10,738:logging:DEBUG:DEAL: AI agrees to sell Hyde Park Road to Marya for £64.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Marya offers £311 for Notre Dame.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Lucia offers £14 for Notre Dame.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Brandon offers £196 for Notre Dame.
+2023-06-24 19:12:10,739:logging:DEBUG:DEAL: AI agrees to sell Notre Dame to Marya for £311.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Marya offers £64 for Woodhouse Street.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Lucia offers £22 for Woodhouse Street.
+2023-06-24 19:12:10,739:logging:DEBUG:*** Brandon offers £46 for Woodhouse Street.
+2023-06-24 19:12:10,740:logging:DEBUG:DEAL: AI agrees to sell Woodhouse Street to Marya for £64.
+2023-06-24 19:12:10,740:logging:DEBUG:*** Marya offers £50 for Quarry Mount.
+2023-06-24 19:12:10,740:logging:DEBUG:*** Lucia offers £18 for Quarry Mount.
+2023-06-24 19:12:10,740:logging:DEBUG:*** Brandon offers £46 for Quarry Mount.
+2023-06-24 19:12:10,740:logging:DEBUG:DEAL: AI agrees to sell Quarry Mount to Marya for £50.
+2023-06-24 19:12:10,740:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,740:logging:DEBUG:AI
+rolls
+4!
+2023-06-24 19:12:10,740:logging:DEBUG:AI
+moves to
+Millennium Square.
+2023-06-24 19:12:10,740:logging:DEBUG:This place cannot be bought.
+2023-06-24 19:12:10,740:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,740:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,740:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,740:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,741:logging:DEBUG:Marya
+rolls
+3!
+2023-06-24 19:12:10,741:logging:DEBUG:Marya
+moves to
+Brudenell Road.
+2023-06-24 19:12:10,741:logging:DEBUG:This property is owned by Lucia.
+2023-06-24 19:12:10,741:logging:DEBUG:Marya must pay £40 to Lucia.
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,741:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,741:logging:DEBUG:*** Brandon offers £41 for Brudenell Road.
+2023-06-24 19:12:10,741:logging:DEBUG:*** AI offers £259 for Brudenell Road.
+2023-06-24 19:12:10,741:logging:DEBUG:*** Marya offers £41 for Brudenell Road.
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia
+does not accept any of these offers.
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia
+rolls
+4!
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia
+moves to
+Hyde Park Road.
+2023-06-24 19:12:10,741:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,741:logging:DEBUG:Lucia must pay £60 to AI.
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,741:logging:DEBUG:Brandon
+to go.
+2023-06-24 19:12:10,741:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,742:logging:DEBUG:Brandon
+rolls
+2!
+2023-06-24 19:12:10,742:logging:DEBUG:Brandon
+moves to
+Leeds University.
+2023-06-24 19:12:10,742:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,742:logging:DEBUG:Brandon must pay £300 to AI.
+2023-06-24 19:12:10,742:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,742:logging:DEBUG:Phase:
+round start
+2023-06-24 19:12:10,742:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,742:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,742:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,742:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,742:logging:DEBUG:AI
+2023-06-24 19:12:10,742:logging:DEBUG:| Woodhouse Street   |   60 |   40* | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| Melville Place     |   50 |   24* | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| Quarry Mount       |   30 |   16* | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| Leeds University   |  700 |  300* | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:Brandon
+2023-06-24 19:12:10,742:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:Lucia
+2023-06-24 19:12:10,742:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,742:logging:DEBUG:Marya
+2023-06-24 19:12:10,742:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| Notre Dame         |  200 |  120* | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,742:logging:DEBUG:
+2023-06-24 19:12:10,742:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,742:logging:DEBUG:* AI:         £621    8    £690   (2611)
+2023-06-24 19:12:10,742:logging:DEBUG:* Marya:      £448    0      £0   (-2485)
+2023-06-24 19:12:10,742:logging:DEBUG:* Lucia:       £10    1     £40   (-15795)
+2023-06-24 19:12:10,742:logging:DEBUG:* Brandon:     £46    0      £0   (-7714)
+2023-06-24 19:12:10,742:logging:DEBUG:Round
+7
+2023-06-24 19:12:10,742:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,742:logging:DEBUG:AI
+to go.
+2023-06-24 19:12:10,742:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,742:logging:DEBUG:AI
+has the following properties for sale:
+2023-06-24 19:12:10,742:logging:DEBUG:Leeds University, Melville Place, Victoria Road, North Lane, Hyde Park Road, Notre Dame, Woodhouse Street, Quarry Mount
+2023-06-24 19:12:10,743:logging:DEBUG:*** Marya offers £368 for Leeds University.
+2023-06-24 19:12:10,743:logging:DEBUG:*** Lucia offers £10 for Leeds University.
+2023-06-24 19:12:10,743:logging:DEBUG:*** Brandon offers £6 for Leeds University.
+2023-06-24 19:12:10,743:logging:DEBUG:DEAL: AI agrees to sell Leeds University to Marya for £368.
+2023-06-24 19:12:10,743:logging:DEBUG:*** Marya offers £55 for Melville Place.
+2023-06-24 19:12:10,743:logging:DEBUG:*** Lucia offers £10 for Melville Place.
+2023-06-24 19:12:10,743:logging:DEBUG:*** Brandon offers £6 for Melville Place.
+2023-06-24 19:12:10,743:logging:DEBUG:DEAL: AI agrees to sell Melville Place to Marya for £55.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Marya offers £88 for Victoria Road.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Lucia offers £10 for Victoria Road.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Brandon offers £6 for Victoria Road.
+2023-06-24 19:12:10,744:logging:DEBUG:DEAL: AI agrees to sell Victoria Road to Marya for £88.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Marya offers £52 for North Lane.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Lucia offers £10 for North Lane.
+2023-06-24 19:12:10,744:logging:DEBUG:*** Brandon offers £6 for North Lane.
+2023-06-24 19:12:10,744:logging:DEBUG:DEAL: AI agrees to sell North Lane to Marya for £52.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Marya offers £64 for Hyde Park Road.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Lucia offers £10 for Hyde Park Road.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Brandon offers £6 for Hyde Park Road.
+2023-06-24 19:12:10,745:logging:DEBUG:DEAL: AI agrees to sell Hyde Park Road to Marya for £64.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Marya offers £298 for Notre Dame.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Lucia offers £10 for Notre Dame.
+2023-06-24 19:12:10,745:logging:DEBUG:*** Brandon offers £6 for Notre Dame.
+2023-06-24 19:12:10,745:logging:DEBUG:DEAL: AI agrees to sell Notre Dame to Marya for £298.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Marya offers £64 for Woodhouse Street.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Lucia offers £10 for Woodhouse Street.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Brandon offers £6 for Woodhouse Street.
+2023-06-24 19:12:10,746:logging:DEBUG:DEAL: AI agrees to sell Woodhouse Street to Marya for £64.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Marya offers £50 for Quarry Mount.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Lucia offers £10 for Quarry Mount.
+2023-06-24 19:12:10,746:logging:DEBUG:*** Brandon offers £6 for Quarry Mount.
+2023-06-24 19:12:10,746:logging:DEBUG:DEAL: AI agrees to sell Quarry Mount to Marya for £50.
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,747:logging:DEBUG:AI
+rolls
+1!
+2023-06-24 19:12:10,747:logging:DEBUG:AI
+moves to
+Woodhouse Street.
+2023-06-24 19:12:10,747:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,747:logging:DEBUG:AI enjoys visiting Woodhouse Street.
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,747:logging:DEBUG:Marya
+to go.
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,747:logging:DEBUG:Marya
+rolls
+2!
+2023-06-24 19:12:10,747:logging:DEBUG:Marya
+moves to
+Notre Dame.
+2023-06-24 19:12:10,747:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,747:logging:DEBUG:Marya must pay £120 to AI.
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+end of turn
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+turn start
+2023-06-24 19:12:10,747:logging:DEBUG:Lucia
+to go.
+2023-06-24 19:12:10,747:logging:DEBUG:Phase:
+opportunity to sell
+2023-06-24 19:12:10,747:logging:DEBUG:Lucia
+has the following properties for sale:
+2023-06-24 19:12:10,747:logging:DEBUG:Brudenell Road
+2023-06-24 19:12:10,748:logging:DEBUG:*** Brandon offers £6 for Brudenell Road.
+2023-06-24 19:12:10,748:logging:DEBUG:*** AI offers £690 for Brudenell Road.
+2023-06-24 19:12:10,748:logging:DEBUG:*** Marya offers £28 for Brudenell Road.
+2023-06-24 19:12:10,748:logging:DEBUG:Lucia
+does not accept any of these offers.
+2023-06-24 19:12:10,748:logging:DEBUG:Phase:
+roll and move
+2023-06-24 19:12:10,748:logging:DEBUG:Lucia
+rolls
+3!
+2023-06-24 19:12:10,748:logging:DEBUG:Lucia
+moves to
+Notre Dame.
+2023-06-24 19:12:10,748:logging:DEBUG:This property is owned by AI.
+2023-06-24 19:12:10,748:logging:DEBUG:Lucia must pay £120 to AI.
+2023-06-24 19:12:10,748:logging:DEBUG:AI gets £10 (all Lucia's remaining money).
+2023-06-24 19:12:10,748:logging:DEBUG:Lucia
+has lost all
+her
+money and is declared BANKRUPT!
+2023-06-24 19:12:10,748:logging:DEBUG:
+The final state of play:
+2023-06-24 19:12:10,748:logging:DEBUG:-----------------------------------------------
+2023-06-24 19:12:10,748:logging:DEBUG:| LOCATION           | COST | RENT  | OWNER   | OCCUPANTS
+2023-06-24 19:12:10,748:logging:DEBUG:|---------------------------------------------|
+2023-06-24 19:12:10,748:logging:DEBUG:| Millennium Square  |    0 |    0  |         | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Woodhouse Street   |   60 |   40* | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:AI
+2023-06-24 19:12:10,748:logging:DEBUG:| Melville Place     |   50 |   24* | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Quarry Mount       |   30 |   16* | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Leeds University   |  700 |  300* | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:Brandon
+2023-06-24 19:12:10,748:logging:DEBUG:| Hyde Park Road     |  200 |   60  | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Brudenell Road     |  120 |   40  | Lucia   | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Victoria Road      |  250 |   80  | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| Notre Dame         |  200 |  120* | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:Marya, Lucia
+2023-06-24 19:12:10,748:logging:DEBUG:| Bearpit Gardens    |  300 |    2  |         | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:| North Lane         |  100 |   50  | AI      | 
+2023-06-24 19:12:10,748:logging:DEBUG:
+2023-06-24 19:12:10,748:logging:DEBUG:----------------------------------------------
+2023-06-24 19:12:10,748:logging:DEBUG:* AI:         £751    8    £690   (2741)
+2023-06-24 19:12:10,748:logging:DEBUG:* Marya:      £328    0      £0   (-2689)
+2023-06-24 19:12:10,749:logging:DEBUG:* Lucia:        £0    1     £40   (-17623)
+2023-06-24 19:12:10,749:logging:DEBUG:* Brandon:     £46    0      £0   (-7714)
+2023-06-24 19:12:10,749:logging:DEBUG:
+* The game ended in round 7 due to bankrupcy).
+2023-06-24 19:12:10,749:logging:DEBUG:* The winner is AI with £751.
