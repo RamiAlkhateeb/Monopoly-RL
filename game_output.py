@@ -23,9 +23,9 @@ def log_file_create(filename):
 
     return logger
 
-logger = log_file_create('./seed_2.log')
+logger = log_file_create('./logs/seed_2.log')
 
-def game_output(*args, end="\n"):
+def game_output(*args, end=" - "):
     if GAME_OUTPUT:
        print(*args, end=end)  
     getattr(logger, 'debug')(end.join(str(a) for a in args))

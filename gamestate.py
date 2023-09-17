@@ -2,6 +2,7 @@ from board import Board
 from game_output import game_output
 import random
 
+
 def resultOfTrade(state, seller, buyer, space, cost):
        newstate = state.clone()
        (newstate.properties[seller.index]).remove(space)
@@ -36,8 +37,8 @@ def auction(state, space, bid, players):
        if buy_value > worst_op_buy_value:
           rotate = players[1:].copy()
           rotate.append(player)
-          game_output( "{} bids {}.".format(player, bid+1) )
-          return auction( state, space, bid+5, rotate )
+          game_output( "{} bids {}.".format(player, bid+10) )
+          return auction( state, space, bid+10, rotate )
        else:
           game_output( player, "passes.")
           return auction(state, space, bid, players[1:])
@@ -138,6 +139,10 @@ class GameState:
        for space in self.board.spaces:
             space.display(self)
        game_output("----------------------------------------------") 
+
+       game_output("-----------------------------------------------")
+       game_output("| NAME           | BALANCE | PROPERTIES  | TOTAL_RENT   | HEURISTIC" )
+       game_output("|-------------------------------------------------------|" )
        for player in self.players:
             player.display(self)
     
@@ -145,7 +150,7 @@ class GameState:
        game_output("Round: {},  Player: {},  Phase: {} ({})".format(self.round,
                                                          self.current_player().name,
                                                          self.phase,
-                                                         self.phase))
+                                                         self.phase))   
        
    def current_player(self):
        return self.players[self.current_player_num]
@@ -153,6 +158,8 @@ class GameState:
    def progress(self, display="verbose"):
        player = self.current_player()
        game_output("Phase:", self.phase)
+       #game_output("Phase:", self.phase)
+
        
        if self.phase == "round start":
           self.display_state()
@@ -181,7 +188,7 @@ class GameState:
                   game_output("No offers were made to buy {}.".format(prop.name))
     
               for op, offer in offers:
-                  game_output( "*** {} offers £{} for {}.".format(op.name, offer, prop.name))
+                  game_output( "*** {} offers M {} for {}.".format(op.name, offer, prop.name))
                   
               offer_result_states =  [ (op, offer, 
                                        resultOfTrade(self, player, op, prop, offer)) 
@@ -204,7 +211,7 @@ class GameState:
               accepted_offer =  acceptable_offer_result_state_vals[-1]
               buyer = accepted_offer[0]
               amount = accepted_offer[1]
-              game_output( "DEAL: {} agrees to sell {} to {} for £{}.".format(player.name, prop.name, buyer.name, amount ))
+              game_output( "DEAL: {} agrees to sell {} to {} for M {}.".format(player.name, prop.name, buyer.name, amount ))
               
               
               #resultAllvalue = buyer.heuristic(resultAll)
@@ -231,12 +238,12 @@ class GameState:
              if new_space.owner(self) == player:
                 game_output("{} enjoys visiting {}.".format(player.name, new_space.name))
              else:    
-                game_output( "{} must pay £{} to {}.".format(player, new_space.rent(self), new_space.owner(self).name) )
+                game_output( "{} must pay M {} to {}.".format(player, new_space.rent(self), new_space.owner(self).name) )
                 player_money = self.money[player.index] 
                 if player_money < new_space.rent(self): ## Player is knocked out!
                    #game_output("!!", player, "cannot pay and is knocked out of the game !!")
                    self.money[new_space.owner(self).index] += player_money
-                   game_output( "{} gets £{} (all {}'s remaining money).".format(new_space.owner(self).name, player_money, player.name))
+                   game_output( "{} gets M {} (all {}'s remaining money).".format(new_space.owner(self).name, player_money, player.name))
                    self.money[player.index] = 0
                    self.phase = "bankrupcy"
                    return player
@@ -246,7 +253,7 @@ class GameState:
              self.phase = "end of turn"
              return
           else: ## the space is available to buy
-             game_output("This property is for sale for {} spondoolies.".format(new_space.cost))
+             game_output("This property is for sale for {} M  Lira.".format(new_space.cost))
              if player.money(self) < player.space(self).cost:
                 game_output( player.name, "cannot afford", player.space(self).name + "." )
                 self.phase = "auction"
@@ -280,11 +287,7 @@ class GameState:
               game_output( player.name, "declines to buy", space.name + "." )
               self.phase = "auction"
               return
-           game_output( player.name, "buys", space.name + "." )
-           (self.properties[player.index]).append(space)
-           self.money[player.index] -=  space.cost
-           self.phase = "end of turn"
-           return
+      
                     
        if self.phase == "auction":
            auction_space = self.spaces[player.index]
@@ -292,7 +295,7 @@ class GameState:
            game_output( auction_space.name, "is up for auction.")
            bid_order_players = self.players[start_index:].copy() + self.players[0:start_index].copy()
            winner, bid = auction( self, auction_space, 0, bid_order_players)
-           game_output( "{} buys {} for £{}.".format(winner, auction_space.name, bid)) 
+           game_output( "{} buys {} for {}.".format(winner, auction_space.name, bid)) 
            (self.properties[winner.index]).append(auction_space)
            self.money[winner.index] -=  bid
            self.phase = "end of turn"

@@ -1,12 +1,11 @@
 from game_output import game_output
 
 def pounds(number):
-    return "£" + str(number)
+    return "M " + str(number)
 
 class Player:
-      def __init__(self, name, gender, strategy):
+      def __init__(self, name, strategy):
              self.name = name
-             self.gender = gender
              self.strategy = strategy
              self.game = None
              self.games_won = 0
@@ -14,7 +13,7 @@ class Player:
              
       
       def display(self, state):
-          game_output( "* {:<9} {:>6}   {:>2}  {:>6}   ({})".format( self.name+":", 
+          game_output( "| {:<14} | {:>6} | {:>11} | {:>12}| ({})".format( self.name+":", 
                                                    pounds(self.money(state)),
                                                    len(self.properties(state)),
                                                    pounds(self.total_rent(state)),

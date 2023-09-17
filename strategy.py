@@ -15,9 +15,10 @@ class Strategy:
       def heuristic(self, state, player):
           value = player.money(state) 
           value += player.total_rent(state) * player.strategy.rent_mult
-          #opponents = [p for p in state.players if p != player]
-          value -= sum( [opponent.money(state) for opponent in player.opponents] ) * self.opponent_money_mult
-          value -= sum( [opponent.total_rent(state) for opponent in player.opponents] ) * self.opponent_rent_mult
+          sum_of_opponents_money = sum( [opponent.money(state) for opponent in player.opponents] )
+          value -= sum_of_opponents_money * self.opponent_money_mult
+          sum_of_opponents_rent = sum( [opponent.total_rent(state) for opponent in player.opponents] )
+          value -= sum_of_opponents_rent * self.opponent_rent_mult
           
           value -= player.jeopardy(state) * self.jeopardy_aversion
           

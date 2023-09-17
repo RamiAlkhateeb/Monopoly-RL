@@ -30,9 +30,11 @@ class Space:
             doublestr = "*"
         else:
             doublestr = " "
-        game_output("| {:<18} | {:>4} | {:>4}{} | {:<7} | ".format(self.name, self.cost, self.rent(state), doublestr, ownerstr), end = "")
+
         occupantstr = ", ".join([str(x) for x in self.occupants(state)]) 
-        game_output("{}".format(occupantstr))
+        game_output("| {:<18} | {:>4} | {:>4}{} | {:<5} | {:>4}".format(self.name, self.cost, self.rent(state), doublestr, ownerstr , occupantstr), end = "")
+        
+        #game_output("{}".format(occupantstr))
         
     def add_player(self, p):
         self.occupants.append(p)
